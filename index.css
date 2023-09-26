@@ -119,7 +119,7 @@ header h1 {
 /* group 2 */
 .group2 {
   background-color: #212529;
-  width: 500px; height: 400px;
+  max-width: 500px; height: 400px;
   margin: 0 auto;
 }
 
