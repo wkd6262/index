@@ -254,3 +254,7 @@ header h1 {
 .footer {
   background-color: black;
 }
+
+.footer ul{
+  display: flex;
+}
