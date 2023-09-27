@@ -204,7 +204,7 @@ header h1:hover {
   width: 30vw;  height: 10vh;
   min-width: 100%; min-height: 100%;
   position: absolute;
-  right: 0; top: 400vh;
+  right: 0; top: 440vh;
   z-index: 1;
 }
 
