@@ -368,6 +368,16 @@ input[type=button]
   align-items: center;
 }
 
+.group7 ul.btn li:nth-child(1) {
+  background-color: #00C3A4;
+  padding: 15px; border-radius: 50px;
+}
+.group7 ul.btn li:nth-child(2) {
+  border: 2px solid #00C3A4;
+  width: 22vw;
+  padding: 15px; border-radius: 50px;
+}
+
 .group7 .contents1, .group7 a {
   font-weight: 550;
   font-size: 1.2rem;
