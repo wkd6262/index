@@ -204,7 +204,7 @@ header h1:hover {
   width: 30vw;  height: 10vh;
   min-width: 100%; min-height: 100%;
   position: absolute;
-  right: 0; top: 440vh;
+  right: 0; top: 425vh;
   z-index: 1;
 }
 
@@ -356,6 +356,39 @@ input[type=button]
   margin: 0 auto;
   width: 50vw; min-width: 100%;
   height: 50vh;
+}
+
+.group7 ul {
+  padding-top: 80px;
+}
+
+.group7 ul.btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.group7 .contents1, .group7 a {
+  font-weight: 550;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.group7 .contents2 em {
+  border-bottom: 1px solid;
+}
+
+.group7 .contents2 {
+  color: #00C3A4;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding-top: 30px;
+ 
+}
+
+.group7 li a {
+
 }
 
 
