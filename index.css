@@ -30,13 +30,13 @@ header h1 {
 header h1:hover {
   transform: rotate(360deg);
   color: #000000;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 /* 아이콘과 메뉴 반응 */
 .menu {
   position: absolute;
-  left: 79%; top: 15%;
+  left: 75%; top: 15%;
 }
 
 .menu svg {
@@ -47,18 +47,18 @@ header h1:hover {
 .menu svg:hover {
   fill: rgb(0, 0, 0);
   transform: rotate(360deg);
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .menu > li:hover .submenu{
   
   height: 200px;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .submenu > li:hover {
   background-color: #ffffff;
-  transition: 0.3s;
+  transition: 1s;
   
 }
 
@@ -216,7 +216,7 @@ header h1:hover {
 .group5Box {
   background-color: #00C3A4;
   width: 51vw; height: 20vh;
-  min-width: 100%; max-width: 51vw;
+  min-width: 100%;
   border-radius: 10px;
   line-height: 5vh;
   margin: 0 auto;
