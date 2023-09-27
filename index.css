@@ -39,6 +39,7 @@ header h1:hover {
   left: 75%; top: 15%;
 }
 
+
 .menu svg {
   fill: #ffffff;
   height: 20px;
@@ -71,7 +72,8 @@ header h1:hover {
 
 .submenu li a{
   display: block;
-  width: 100px; height: 50px;
+  width: 5vw; height: 50px;
+  min-width: 100%; max-width: 50%;
   line-height: 50px;
 }
 
