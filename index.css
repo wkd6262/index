@@ -373,6 +373,6 @@ input[type=button]
 
 .footer svg:hover {
   transform: rotate(360deg);
-  transition: 0.4s;
+  transition: 1s;
   fill: #00C3A4;
 }
