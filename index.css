@@ -225,9 +225,21 @@ header h1:hover {
 
 .group5 li h3{
   font-weight: bold;
+  font-size: 1.2rem;
 }
 .group5 li:nth-child(1n+2) {
   color: #868789;
+  font-size: 1.2rem;
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.group5 img {
+  width: 30vw;
+  min-width: 100%;
+  max-width: 80%;
+  padding-bottom: 5vh;
 }
 
 /* group6 */
@@ -245,7 +257,7 @@ header h1:hover {
 }
 
 .group6 .contactBox img{
-  width: 8%;
+  width: 8%; 
   max-width: 100%;
   position: relative;
   left: 40%; bottom: 30%;
@@ -269,7 +281,7 @@ header h1:hover {
 
 .group6 .contactBox {
   background-color: #343a40;
-  height: 15vh; 
+  height: 20vh; 
   min-width: 100%;  width: 46vw;
   margin: 20px auto;
   border-radius: 10px;
