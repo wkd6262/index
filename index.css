@@ -273,7 +273,7 @@ header h1 {
 .group6 .contact input#userName, #userEmail,
 input[type=button]
 {
-  width: 450px;
+  width: 46vw;
   padding: 30px 0;
   margin: 0 auto;
   border-radius: 10px;
@@ -287,7 +287,7 @@ input[type=button]
 }
 
 .group6 .contact #userTxt {
-  width: 450px;
+  width: 46vw;
   height: 70px;
   padding: 30px 0;
   margin: 0 auto;
