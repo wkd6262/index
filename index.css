@@ -36,9 +36,8 @@ header h1:hover {
 /* 아이콘과 메뉴 반응 */
 .menu {
   position: absolute;
-  left: 75%; top: 15%;
+  left: 78%; top: 15%;
 }
-
 
 .menu svg {
   fill: #ffffff;
@@ -72,8 +71,7 @@ header h1:hover {
 
 .submenu li a{
   display: block;
-  width: 5vw; height: 50px;
-  min-width: 100%; max-width: 50%;
+  width: 100px; height: 50px;
   line-height: 50px;
 }
 
@@ -186,7 +184,8 @@ header h1:hover {
 .group4 {
   background-color: #212529;
   display: flex;
-  height: 250px; width: 51vw;
+  height: 30vh; width: 51vw;
+  min-height: 100%;
   min-width: 100%;
   margin: 0 auto;
 }
@@ -202,10 +201,10 @@ header h1:hover {
 }
 
 .group4 .video {
-  width: 40vw;
-  min-width: 100%; height: 100%;
+  width: 30vw;  height: 10vh;
+  min-width: 100%; min-height: 100%;
   position: absolute;
-  right: 0; top: 375vh;
+  right: 0; top: 400vh;
   z-index: 1;
 }
 
@@ -234,7 +233,7 @@ header h1:hover {
 /* group6 */
 .group6 {
   background-color: #212529;
-  width: 51vw; min-width: 100%;
+  width: 50vw; min-width: 100%;
   margin: 0 auto;
 }
 
@@ -246,9 +245,10 @@ header h1:hover {
 }
 
 .group6 .contactBox img{
-  max-width: 10%;
+  width: 8%;
+  max-width: 100%;
   position: relative;
-  left: 30%; bottom: 20%;
+  left: 40%; bottom: 30%;
 }
 
 .group6 li.partners img {
@@ -269,7 +269,8 @@ header h1:hover {
 
 .group6 .contactBox {
   background-color: #343a40;
-  height: 150px; width: 400px;
+  height: 15vh; 
+  min-width: 100%;  width: 46vw;
   margin: 20px auto;
   border-radius: 10px;
 }
