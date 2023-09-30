@@ -204,7 +204,7 @@ header h1:hover {
   width: 30vw;  height: 10vh;
   min-width: 100%; min-height: 100%;
   position: absolute;
-  right: 0; top: 425vh;
+  right: 0; top: 358vh; bottom: 0; left: 0;
   z-index: 1;
 }
 
@@ -260,7 +260,7 @@ header h1:hover {
   width: 8%; 
   max-width: 100%;
   position: relative;
-  left: 40%; bottom: 30%;
+  left: 40%; bottom: 20%;
 }
 
 .group6 li.partners img {
@@ -374,7 +374,6 @@ input[type=button]
 }
 .group7 ul.btn li:nth-child(2) {
   border: 2px solid #00C3A4;
-  width: 22vw;
   padding: 15px; border-radius: 50px;
 }
 
@@ -398,7 +397,7 @@ input[type=button]
 }
 
 .group7 li a {
-
+  padding: 10px;
 }
 
 
@@ -411,9 +410,67 @@ input[type=button]
   margin: 0 auto;
 }
 
+.footer .footertxt {
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  line-height: 8;
+}
+
+.footer .footertxt li:nth-child(1) {
+  margin-right: 3vw;
+}
+.footer .footertxt li:nth-child(2) {
+  margin-left: 3vw;
+}
+
+.footer .family {
+  height: 0;
+  line-height: 6.5vh;
+  margin: 0 auto;
+}
+
+.footer ul.family li a {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+.footer .family > li a{
+  border: 2px solid #383c3f;
+  padding: 2vw 5vh;
+}
+
+.footer .family ul.fa_submenu{
+  color: white;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+.family:hover ul.fa_submenu {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 7vh;
+  bottom: 4vh;
+  transition: 1s;
+  height: 19vh; width:42vw;
+  background-color: #00C3A4;
+  transform: translateY(-27.5vh);
+}
+
+.family .fa_submenu li:hover {
+  background-color: #000;
+  transition: 0.5s;
+}
+
+/* footer button */
+
 .footer ul.button {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 15vh;
 }
 
 .footer svg {
@@ -421,7 +478,7 @@ input[type=button]
   height: 100%;
   position: relative;
   margin: 0 2vw;
-  top: 28vh;
+  
   fill: white;
 }
 
