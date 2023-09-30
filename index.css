@@ -36,7 +36,7 @@ header h1:hover {
 /* 아이콘과 메뉴 반응 */
 .menu {
   position: absolute;
-  left: 78%; top: 15%;
+  left: 84%; top: 15%;
 }
 
 .menu svg {
@@ -99,27 +99,29 @@ header h1:hover {
 
 /* group1 */
 
-.group1 h3 {
+.feature h3 {
   padding: 30px 0;
   font-size: 1.4rem;
 }
 
-.group1 {
+.feature {
   font-weight: 600;
 }
 
-.group1 li h4{
+.feature li h4{
   padding-bottom: 20px;
   font-size: 1.4rem;
 }
 
-.group1 li p {
+
+.feature li p {
   width: 300px;
   margin: 0 auto;
   color: #868789;
+  margin-bottom: 20px;
 }
 
-.group1 .featureBox {
+.feature .featureBox {
   background: #1e1e1e;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -129,16 +131,15 @@ header h1:hover {
 }
 
 /* group 2 */
-.group2 {
+.info {
+  text-transform: capitalize;
+  font-weight: bold;
   background-color: #212529;
   max-width: 500px; height: 400px;
   margin: 0 auto;
 }
 
-.group2 ul {
-}
-
-.group2 p {
+.info p {
   font-size: 1.2rem;
   width: 260px;
   margin: 0 auto;
@@ -146,7 +147,7 @@ header h1:hover {
 
 }
 
-.group2 ul {
+.info ul {
   display: flex;
   flex-flow: wrap;
   width: 400px;
@@ -154,80 +155,120 @@ header h1:hover {
   margin: 0 auto;
 }
 
-.group2Box {
+.infoBox {
   border-radius: 10px;
   margin: 10px;
   margin-top: 30px;
   background-color: #00C3A4;
   width: 100px; height: 100px;
 }
-.group2Box img {
+.infoBox img {
   width: 50px; height: 50px;
   margin: 25px 25px;
 }
 
-.group2Box h4 {
+.infoBox h4 {
   padding-top: 5px;
   color: #868789;
 }
 
 /* group3 */
 
-.group3 a {
+.learn a {
   color: #00C3A4;
   text-decoration: underline;
+  line-height: 10vh;
 }
 
+.learn img {
+  padding: 5vh 3vh;
+  max-width: 100%;
+  width: 85vw;
+}
+
+.learn > .learnBox p{
+  text-align: left;
+  font-size: 1.8rem;
+
+  width: 90vw;
+}
+
+.learn h4 {
+  margin: 4vh 0;
+}
+
+.learn li {
+  text-align: left;
+}
+
+.learn ul {
+  margin-left: 3vw;
+}
 
 /* group4 */
 
-.group4 {
+.video {
   background-color: #212529;
   display: flex;
   height: 30vh; width: 51vw;
   min-height: 100%;
   min-width: 100%;
   margin: 0 auto;
+  font-weight: bold;
 }
 
-.group4 ul {
+.video ul h2 {
+  font-size: 2rem;
+  margin-bottom: 3vh;
+}
+
+.video ul h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1vh;
+}
+
+.video ul p {
+  color: #5b6060;
+}
+
+.video ul {
   display: flex;
   margin: 0 auto;
 }
 
-.group4 ul li {
-  line-height: 35px;
-  padding: 20px;
+.video ul li {
+  padding: 10vw 6vw;
 }
 
-.group4 .video {
-  width: 30vw;  height: 10vh;
+.video > .videoBox {
+  width: 30vw;  height: 1vh;
+  max-height: 10px;
   min-width: 100%; min-height: 100%;
   position: absolute;
-  right: 0; top: 358vh; bottom: 0; left: 0;
+  top: 450%;
   z-index: 1;
 }
 
 /* group5 */
 
-.group5 {
+.info2 {
   padding-top: 245px;
 }
 
-.group5Box {
+.info2Box {
   background-color: #00C3A4;
   width: 51vw; height: 20vh;
-  min-width: 100%;
+  min-width: 90%;
   border-radius: 10px;
   line-height: 5vh;
   margin: 0 auto;
 }
 
-.group5 li h3{
+.info2 li h3{
   font-weight: bold;
   font-size: 1.2rem;
 }
-.group5 li:nth-child(1n+2) {
+.info2 li:nth-child(1n+2) {
   color: #868789;
   font-size: 1.2rem;
   padding-top: 50px;
@@ -235,7 +276,7 @@ header h1:hover {
   text-align: left;
 }
 
-.group5 img {
+.info2 img {
   width: 30vw;
   min-width: 100%;
   max-width: 80%;
@@ -243,66 +284,66 @@ header h1:hover {
 }
 
 /* group6 */
-.group6 {
+.contact {
   background-color: #212529;
   width: 50vw; min-width: 100%;
   margin: 0 auto;
 }
 
-.group6 h3, .group6 h4 {
+.contact h3, .contact h4 {
   font-weight: bold;
   font-size: 1.4rem;
   text-align: left;
   padding: 20px;
 }
 
-.group6 .contactBox img{
+.contact .contactBox img{
   width: 8%; 
   max-width: 100%;
   position: relative;
   left: 40%; bottom: 20%;
 }
 
-.group6 li.partners img {
+.contact li.partners img {
   max-width: 20%;
   width: 100%; height: 100%;
   padding: 20px;
   
 }
-.group6 ul.partners {
+.contact ul.partners {
   border-bottom: 1px solid #464E55;
   padding-bottom: 100px;
 }
 
-.group6 h4 {
+.contact h4 {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.group6 .contactBox {
+.contact .contactBox {
   background-color: #343a40;
   height: 20vh; 
-  min-width: 100%;  width: 46vw;
+  min-width: 90%;  width: 46vw;
   margin: 20px auto;
   border-radius: 10px;
 }
 
-.group6 .contact {
+.contact .contact2 {
   display: flex;
   flex-flow: column;
   
 }
 
-.group6 .contact h3 {
+.contact .contact2 h3 {
   font-size: 1.8rem;
   padding: 50px 25px;
 }
 
-.group6 .contact input#userName, #userEmail,
+.contact .contact2 input#userName, #userEmail,
 input[type=button]
 {
   width: 46vw;
-  min-width: 100%;
+  min-width: 90%;
   padding: 30px 0;
   margin: 0 auto;
   border-radius: 10px;
@@ -310,14 +351,14 @@ input[type=button]
   outline: none;
 }
 
-.group6 .contact input#userName, #userEmail, #userTxt {
+.contact .contact2 input#userName, #userEmail, #userTxt {
   background-color: #343a40;
   color: white;
 }
 
-.group6 .contact #userTxt {
+.contact .contact2 #userTxt {
   width: 46vw;
-  min-width: 100%;
+  min-width: 90%;
   height: 70px;
   padding: 30px 0;
   margin: 0 auto;
@@ -326,7 +367,7 @@ input[type=button]
   outline: none;
 }
 
-.group6 .contact input[type=button]  {
+.contact .contact2 input[type=button]  {
   background-color: #00C3A4;
   font-weight: bold;
   font-size: 1.1rem;
@@ -335,12 +376,12 @@ input[type=button]
   margin-bottom: 50px;
   cursor: pointer;
 }
-.group6 .contact input[type=button]:active {
+.contact .contact2 input[type=button]:active {
   outline: 2px solid #fff;
   color: #464E55;
 } 
 
-.group6 .contact label {
+.contact .contact2 label {
   text-align: left;
   padding-left: 25px;
   padding-bottom: 10px;
@@ -351,52 +392,57 @@ input[type=button]
 
 /*group7*/
 
-.group7 {
+.about {
   background-color: #343a40;
   margin: 0 auto;
   width: 50vw; min-width: 100%;
   height: 50vh;
 }
 
-.group7 ul {
+.about ul {
   padding-top: 80px;
 }
 
-.group7 ul.btn {
+.about ul.btn {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.group7 ul.btn li:nth-child(1) {
+.about ul.btn li:nth-child(1) {
   background-color: #00C3A4;
   padding: 15px; border-radius: 50px;
 }
-.group7 ul.btn li:nth-child(2) {
+.about ul.btn li:nth-child(2) {
   border: 2px solid #00C3A4;
   padding: 15px; border-radius: 50px;
 }
 
-.group7 .contents1, .group7 a {
+.about .contents1, .about a {
   font-weight: 550;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
 }
 
-.group7 .contents2 em {
+.about .contents2 em {
   border-bottom: 1px solid;
 }
 
-.group7 .contents2 {
+.about .contents2 {
   color: #00C3A4;
   font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.2;
+  font-size: 1.6rem;
+  line-height: 1.8;
   padding-top: 30px;
  
 }
 
-.group7 li a {
+.about a:hover {
+  margin: 5vw;
+  transition: 0.5s;
+}
+
+.about li a {
   padding: 10px;
 }
 
@@ -437,30 +483,30 @@ input[type=button]
   color: white;
 }
 
-.footer .family > li a{
+.footer .family > li > a{
   border: 2px solid #383c3f;
   padding: 2vw 5vh;
 }
 
-.footer .family ul.fa_submenu{
+.footer .family ul.fasub{
   color: white;
   position: relative;
   height: 0;
   overflow: hidden;
 }
 
-.family:hover ul.fa_submenu {
+.family:hover ul.fasub {
   position: relative;
   margin: 0 auto;
   margin-top: 7vh;
   bottom: 4vh;
   transition: 1s;
-  height: 19vh; width:42vw;
+  height: 19vh; width:39vw;
   background-color: #00C3A4;
   transform: translateY(-27.5vh);
 }
 
-.family .fa_submenu li:hover {
+.family .fasub li:hover {
   background-color: #000;
   transition: 0.5s;
 }
