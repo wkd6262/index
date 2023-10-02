@@ -530,7 +530,7 @@ input[type=button]
   height: 100%; width: 100%;
   min-width: 100%;
   margin: 0 auto;
-  margin-bottom: 50%;
+  padding-bottom: 50%;
 }
 
 .footer .footertxt {
@@ -588,18 +588,25 @@ input[type=button]
 
 /* footer button */
 
-.footer ul.button {
-  background-color: #000;
-  height: 7%;
-  width: 100vw;
-  display: flex;
-  position: fixed;
+footer {
+  position: sticky;
   bottom: 0;
 }
 
-.footer svg {
-  min-height: 30px;
-  width: 30%;
+footer ul.button {
+  background-color: #000;
+  height: 8%;
+  width: 100%;
+  display: flex;
+  position: sticky;
+  bottom: 0;
+}
+
+
+
+footer svg {
+  min-height: 50px;
+  width: 20%;
   height: 100%;
   position: relative;
   margin: 0 7vw;
@@ -610,7 +617,7 @@ input[type=button]
   color: white;
 }
 
-.footer svg:hover {
+footer svg:hover {
   transform: rotate(360deg);
   transition: 1s;
   fill: #00C3A4;
