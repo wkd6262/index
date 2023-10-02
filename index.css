@@ -530,7 +530,7 @@ input[type=button]
   height: 100%; width: 100%;
   min-width: 100%;
   margin: 0 auto;
-  padding-bottom: 50%;
+  margin-bottom: 50%;
 }
 
 .footer .footertxt {
@@ -593,15 +593,16 @@ input[type=button]
   height: 7%;
   width: 100vw;
   display: flex;
-  justify-content: space-evenly;
   position: fixed;
   bottom: 0;
 }
 
 .footer svg {
   min-height: 30px;
-  width: 40%;
+  width: 30%;
   height: 100%;
+  position: relative;
+  margin: 0 7vw;
   fill: white;
 }
 
