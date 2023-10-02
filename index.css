@@ -592,6 +592,7 @@ input[type=button]
 .footer ul.button {
   background-color: #000;
   height: 50px;
+  min-width: 100%;
   width: 100%;
   display: flex;
   margin-top: 15vh;
