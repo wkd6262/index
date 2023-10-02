@@ -97,7 +97,7 @@ header h1:hover {
 .title {
   font-weight: bold;
   font-size: 1.6rem;
-  padding-top: 55px;
+  padding: 20% 0;
 }
 
 .titleTxt h1 {
@@ -576,7 +576,6 @@ input[type=button]
   margin: 0 auto;
   margin-top: 7vh;
   bottom: 5.1vh;
-  transition: 1s;
   height: 100%; width:45%;
   background-color: #212529;
   transform: translateY(-27.5vh);
@@ -591,15 +590,11 @@ input[type=button]
 
 .footer ul.button {
   background-color: #000;
-  height: 6%;
-  min-width: 100%;
-  width: 100%;
+  height: 7%;
+  width: 100vw;
   display: flex;
-  margin-top: 15vh;
   position: fixed;
   bottom: 0;
-  
-
 }
 
 .footer svg {
@@ -608,7 +603,6 @@ input[type=button]
   height: 100%;
   position: relative;
   margin: 0 7vw;
-  
   fill: white;
 }
 
