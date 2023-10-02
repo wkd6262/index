@@ -199,7 +199,7 @@ header h1:hover {
 .info ul {
   display: flex;
   flex-flow: wrap;
-  width: 100%;
+  width: 96%;
   justify-content: center;
   margin: 0 auto;
 }
@@ -374,7 +374,8 @@ header h1:hover {
 
 .contact .contactBox {
   background-color: #343a40;
-  height: 90%; width: 95%;
+  min-height: 160px;
+  height: 100%; width: 95%;
   margin: 20px auto;
   padding-bottom: 20px;
   border-radius: 10px;
@@ -538,6 +539,10 @@ input[type=button]
   display: flex;
   justify-content: center;
   line-height: 8;
+}
+
+.footer ul.footertxt a:hover {
+  color: #00C3A4;
 }
 
 .footer .footertxt li:nth-child(1) {
