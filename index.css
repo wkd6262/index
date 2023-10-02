@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #000000;
+  background-color: #00C3A4;
   height: 50px;
   display: flex;
   position: sticky;
@@ -30,7 +30,7 @@ header h1 {
 
 header h1:hover {
   transform: rotate(360deg);
-  color: #000000;
+  color: #00C3A4;
   transition: 1s;
 }
 
@@ -46,7 +46,7 @@ header h1:hover {
 }
 
 .menu svg:hover {
-  fill: rgb(0, 0, 0);
+  fill: #00C3A4;
   transform: rotate(360deg);
   transition: 1s;
 }
@@ -66,12 +66,14 @@ header h1:hover {
 .submenu {
   height: 0; /*ul의 높이를 안보이게 처리*/
   overflow: hidden;
-  color: rgb(0, 0, 0);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
   background-color: #00C3A4;
 }
 
 .submenu li a{
   display: block;
+  color: rgb(0, 0, 0);
   width: 50px; height: 50px;
   line-height: 50px;
 }
@@ -92,10 +94,49 @@ header h1:hover {
 }
 /* main ↓  */
 
-.title h2 {
+.title {
   font-weight: bold;
   font-size: 1.6rem;
-  padding: 35px;
+  padding-top: 55px;
+}
+
+.titleTxt h1 {
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: transparent;
+  margin: 0;
+  position: absolute;
+  top: 10%; left: 50%;
+  transform: translate(-50% ,-50%);
+}
+
+.titleTxt h1::before {
+  content: "developers";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  color: white;
+  overflow: hidden;
+  border-right: 3px solid white;
+  animation: typing 5s steps(20) infinite;
+}
+
+@keyframes typing {
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 100%;
+  }
+  100%{
+    width: 0%;
+  }
+  
+}
+
+
+.title img {
+  width: 90%;
 }
 
 /* group1 */
@@ -131,6 +172,12 @@ header h1:hover {
   margin: 20px auto;
 }
 
+.feature .featureBox svg {
+  height: 2.5em;
+  fill: #00C3A4;
+  padding: 3%;
+}
+
 /* group 2 */
 .info {
   text-transform: capitalize;
@@ -152,7 +199,7 @@ header h1:hover {
 .info ul {
   display: flex;
   flex-flow: wrap;
-  width: 90%;
+  width: 100%;
   justify-content: center;
   margin: 0 auto;
 }
@@ -180,6 +227,10 @@ header h1:hover {
   color: #00C3A4;
   text-decoration: underline;
   line-height: 10vh;
+}
+
+.learn a:hover {
+  color: #212529;
 }
 
 .learn img {
@@ -301,7 +352,7 @@ header h1:hover {
   width: 8%; 
   max-width: 100%;
   position: relative;
-  left: 40%; bottom: 20%;
+  left: 40%; bottom: 40px;
 }
 
 .contact li.partners img {
@@ -327,6 +378,11 @@ header h1:hover {
   margin: 20px auto;
   padding-bottom: 20px;
   border-radius: 10px;
+}
+.contact .contactBox:hover {
+  background-color: #00C3A4;
+  transition: 0.8s;
+  transform: translateY(-5%)
 }
 
 .contact .contact2 {
@@ -377,9 +433,10 @@ input[type=button]
   margin-bottom: 50px;
   cursor: pointer;
 }
-.contact .contact2 input[type=button]:active {
-  outline: 2px solid #fff;
-  color: #464E55;
+.contact .contact2 input[type=button]:hover {
+  background-color: white;
+  color: #00C3A4;
+  transition: 0.5s;
 } 
 
 .contact .contact2 label {
@@ -398,6 +455,7 @@ input[type=button]
   margin: 0 auto;
   width: 100%; min-width: 100%;
   height: 100%;
+  padding-bottom: 10%;
 }
 
 .about ul {
@@ -410,22 +468,44 @@ input[type=button]
   align-items: center;
 }
 
-.about ul.btn li:nth-child(1) {
+.about .btn li a {
+  background-color: #00C3A4;
+  padding: 8px 15px; border-radius: 50px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+
+.about .btn li a.more {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+
+.about .btn li a:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+
+/* .about ul.btn li:nth-child(1) {
   background-color: #00C3A4;
   padding: 15px; border-radius: 50px;
   margin-bottom: 20px;
+  
+}
+.about ul.btn li:nth-child(1):hover {
+  background-color: #fff;
+  color: black;
 }
 .about ul.btn li:nth-child(2) {
   border: 2px solid #00C3A4;
   padding: 15px; border-radius: 50px;
   margin-bottom: 20px;
-}
+} */
 
-.about .contents1, .about a {
-  font-weight: 550;
-  font-size: 1rem;
-  color: white;
-}
+
 
 .about .contents2 em {
   border-bottom: 1px solid;
@@ -439,14 +519,8 @@ input[type=button]
  
 }
 
-.about a:hover {
-  margin: 5vw;
-  transition: 0.5s;
-}
 
-.about li a {
-  padding: 5px;
-}
+
 
 
 /* footer */
@@ -460,7 +534,6 @@ input[type=button]
 }
 
 .footer .footertxt {
-  font-weight: bold;
   font-size: 1.1rem;
   display: flex;
   justify-content: center;
@@ -480,14 +553,14 @@ input[type=button]
   margin: 0 auto;
 }
 
-.footer ul.family li a {
+.footer ul.family > li > a {
   font-weight: bold;
   font-size: 1rem;
   color: white;
 }
 
 .footer .family > li > a{
-  border: 2px solid #383c3f;
+  border: 1px solid #383c3f;
   padding: 2vw 5vh;
 }
 
@@ -502,15 +575,15 @@ input[type=button]
   position: relative;
   margin: 0 auto;
   margin-top: 7vh;
-  bottom: 4vh;
+  bottom: 5.1vh;
   transition: 1s;
-  height: 100%; width:50%;
-  background-color: #00C3A4;
+  height: 100%; width:45%;
+  background-color: #212529;
   transform: translateY(-27.5vh);
 }
 
 .family .fasub li:hover {
-  background-color: #000;
+  background-color: #ffffff;
   transition: 0.5s;
 }
 
@@ -518,7 +591,7 @@ input[type=button]
 
 .footer ul.button {
   background-color: #000;
-  height: 8%;
+  height: 50px;
   width: 100%;
   display: flex;
   margin-top: 15vh;
