@@ -591,18 +591,16 @@ input[type=button]
 .footer ul.button {
   background-color: #000;
   height: 7%;
-  width: 100vw;
+  width: 100%;
   display: flex;
+  justify-content: space-evenly;
   position: fixed;
   bottom: 0;
 }
 
 .footer svg {
-  min-height: 30px;
-  width: 30%;
+  width: 40%;
   height: 100%;
-  position: relative;
-  margin: 0 7vw;
   fill: white;
 }
 
