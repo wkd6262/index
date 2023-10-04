@@ -32,7 +32,6 @@ header h1 {
 }
 
 header h1:hover {
-  transform: rotate(360deg);
   color: #00C3A4;
   transition: 1s;
 }
@@ -52,7 +51,6 @@ header h1:hover {
 
 .menu svg:hover {
   fill: #00C3A4;
-  transform: rotate(360deg);
   transition: 1s;
 }
 
@@ -469,6 +467,12 @@ input[type=button]
 
 .about ul {
   padding-top: 80px;
+}
+
+.about .contents1 {
+  font-weight: bold;
+
+  font-size: 1.2rem;
 }
 
 .about ul.btn {
