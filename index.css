@@ -4,6 +4,7 @@ body {
   text-align: center;
   background: #000000;
   color: white;
+
 }
 
 header {
@@ -13,6 +14,7 @@ header {
   position: sticky;
   z-index: 1;
   top: 0;
+  
   /* display: flex;
   position: sticky;
   top: 0;
@@ -26,6 +28,7 @@ header h1 {
   line-height: 50px;
   position: relative;
   left: 10px;
+  transition: 1s;
 }
 
 header h1:hover {
@@ -38,11 +41,13 @@ header h1:hover {
 .menu {
   position: absolute;
   left: 84%; top: 25%;
+  
 }
 
 .menu svg {
   fill: #ffffff;
   height: 20px;
+  transition: 1s;
 }
 
 .menu svg:hover {
@@ -379,6 +384,7 @@ header h1:hover {
   margin: 20px auto;
   padding-bottom: 20px;
   border-radius: 10px;
+  transition: 1s;
 }
 .contact .contactBox:hover {
   background-color: #00C3A4;
@@ -433,6 +439,8 @@ input[type=button]
   margin: 20px auto;
   margin-bottom: 50px;
   cursor: pointer;
+  transition: 1s;
+
 }
 .contact .contact2 input[type=button]:hover {
   background-color: white;
@@ -476,6 +484,8 @@ input[type=button]
   color: #ffffff;
   font-weight: bold;
   border: 1px solid transparent;
+  transition: 1s;
+
 }
 
 .about .btn li a.more {
@@ -532,6 +542,7 @@ input[type=button]
   min-width: 100%;
   margin: 0 auto;
   padding-bottom: 30%;
+  
 }
 
 .footer .footertxt {
@@ -539,6 +550,7 @@ input[type=button]
   display: flex;
   justify-content: center;
   line-height: 8;
+  
 }
 
 .footer ul.footertxt a:hover {
@@ -556,6 +568,7 @@ input[type=button]
   height: 0;
   line-height: 6.5vh;
   margin: 0 auto;
+  
 }
 
 .footer ul.family > li > a {
@@ -574,6 +587,7 @@ input[type=button]
   position: relative;
   height: 0;
   overflow: hidden;
+  
 }
 
 .family:hover ul.fasub {
@@ -596,6 +610,7 @@ input[type=button]
 footer {
   position: sticky;
   bottom: 0;
+  
 }
 
 footer ul.button {
@@ -605,6 +620,7 @@ footer ul.button {
   display: flex;
   position: sticky;
   bottom: 0;
+  
 }
 
 
@@ -616,6 +632,8 @@ footer svg {
   position: relative;
   margin: 0 7vw;
   fill: white;
+  transition: 1s;
+
 }
 
 .footer ul.footertxt a {
